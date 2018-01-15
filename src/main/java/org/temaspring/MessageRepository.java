@@ -1,6 +1,8 @@
 package org.temaspring;
 
-public interface MessageRepository {
+import org.springframework.stereotype.Repository;
 
+@Repository
+public interface MessageRepository {
     public void store(Message message);
 }
